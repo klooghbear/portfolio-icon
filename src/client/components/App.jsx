@@ -1,7 +1,4 @@
-import React, { Component, Fragment } from "react"
-
-import Header from "./Header/Header.jsx"
-import Body from "./Body/Body.jsx"
+import React, { Component } from "react"
 
 import "./App.scss"
 
@@ -12,13 +9,9 @@ export default class App extends Component {
 
   render() {
     return(
-      <Fragment>
-        <div className="app">
-          <Header/>
-          
-          <Body />
-        </div>
-      </Fragment>
+      <div className="app">
+        Hello World!
+      </div>
     )
   }
 }
