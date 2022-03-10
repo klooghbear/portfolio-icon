@@ -1,17 +1,11 @@
 import React, { Component } from "react"
 
+import { Panel } from "./Panel/Panel.jsx"
+
 import "./App.scss"
 
-export default class App extends Component {
-  constructor(props) {
-    super(props)
-  }
-
-  render() {
-    return(
-      <div className="app">
-        Hello World!
-      </div>
-    )
-  }
+export const App = () => {
+  return <div className="app">
+    <Panel />
+  </div>
 }
